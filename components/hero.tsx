@@ -76,7 +76,7 @@ export function Hero() {
           className="mt-20 flex justify-center items-center gap-8"
         >
           <div className="text-center">
-            <div className="text-3xl font-bold text-primary">50+</div>
+            <div className="text-3xl font-bold text-primary">3+</div>
             <div className="text-sm text-muted-foreground">Projects Completed</div>
           </div>
           <div className="w-px h-12 bg-border"></div>
@@ -85,10 +85,10 @@ export function Hero() {
             <div className="text-sm text-muted-foreground">Client Satisfaction</div>
           </div>
           <div className="w-px h-12 bg-border"></div>
-          <div className="text-center">
-            <div className="text-3xl font-bold text-primary">5+</div>
+          {/* <div className="text-center">
+            <div className="text-3xl font-bold text-primary">1+</div>
             <div className="text-sm text-muted-foreground">Years Experience</div>
-          </div>
+          </div> */}
         </motion.div>
       </motion.div>
     </section>
